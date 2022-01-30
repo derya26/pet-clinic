@@ -1,6 +1,6 @@
 package com.derya.petclinic.model;
 
-public class PetType extends BaseEntity {
+public class PetType {
 	
 	private String name;
 
@@ -11,6 +11,7 @@ public class PetType extends BaseEntity {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
 	
 
 }

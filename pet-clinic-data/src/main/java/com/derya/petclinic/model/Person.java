@@ -1,9 +1,10 @@
 package com.derya.petclinic.model;
 
-public class Person extends BaseEntity{
+public class Person {
 	
 	private String firstName;
 	private String lastName;
+	
 	public String getFirstName() {
 		return firstName;
 	}
@@ -16,7 +17,6 @@ public class Person extends BaseEntity{
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	
 	
 
 }

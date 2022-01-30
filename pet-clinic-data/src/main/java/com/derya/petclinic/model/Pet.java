@@ -2,7 +2,7 @@ package com.derya.petclinic.model;
 
 import java.time.LocalDate;
 
-public class Pet extends BaseEntity{
+public class Pet {
 	
 	private PetType petType;
 	private Owner owner;

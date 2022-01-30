@@ -1,5 +1,5 @@
 package com.derya.petclinic.model;
 
-public class BaseEntity {
+public class Owner extends Person{
 
 }

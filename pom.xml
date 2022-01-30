@@ -39,17 +39,21 @@
 				<artifactId>maven-release-plugin</artifactId>
 				<configuration>
 					<goals>install</goals>
+					<checkModificationExcludes>
+						<checkModificationExclude>pom.xml</checkModificationExclude>
+						<checkModificationExclude>**</checkModificationExclude>
+					</checkModificationExcludes>
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
 
 	<scm>
-	    <connection>git@github.com:derya26/pet-clinic.git</connection>
-	    <url>https://github.com/derya26/pet-clinic.git</url>
+		<connection>https://github.com/derya26/pet-clinic.git</connection>
+		<url>https://github.com/derya26/pet-clinic.git</url>
 		<developerConnection>scm:git:https://github.com/derya26/pet-clinic.git</developerConnection>
-	    <tag>0.0.1</tag>
-  </scm>
+		<tag>0.0.1</tag>
+	</scm>
 	<modules>
 		<module>pet-clinic-data</module>
 		<module>pet-clinic-web</module>

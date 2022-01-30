@@ -4,10 +4,10 @@
 	<parent>
 		<groupId>com.derya</groupId>
 		<artifactId>pet-clinic</artifactId>
-		<version>0.0.1</version>
+		<version>0.0.2-SNAPSHOT</version>
 	</parent>
 	<artifactId>pet-clinic-data</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>pet-clinic-data</name>
 	<url>http://maven.apache.org</url>
 	<properties>

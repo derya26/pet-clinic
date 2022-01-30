@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.derya</groupId>
 	<artifactId>pet-clinic</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>pet-clinic</name>
 	<description>Spring Boot Pet Clinic</description>
 	<packaging>pom</packaging>
@@ -39,10 +39,6 @@
 				<artifactId>maven-release-plugin</artifactId>
 				<configuration>
 					<goals>install</goals>
-					<checkModificationExcludes>
-						<checkModificationExclude>pom.xml</checkModificationExclude>
-						<checkModificationExclude>**</checkModificationExclude>
-					</checkModificationExcludes>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -52,7 +48,7 @@
 		<connection>https://github.com/derya26/pet-clinic.git</connection>
 		<url>https://github.com/derya26/pet-clinic.git</url>
 		<developerConnection>scm:git:https://github.com/derya26/pet-clinic.git</developerConnection>
-		<tag>0.0.1</tag>
+		<tag>HEAD</tag>
 	</scm>
 	<modules>
 		<module>pet-clinic-data</module>

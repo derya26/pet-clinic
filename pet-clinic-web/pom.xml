@@ -4,11 +4,11 @@
 	<parent>
 		<groupId>com.derya</groupId>
 		<artifactId>pet-clinic</artifactId>
-		<version>0.0.7</version>
+		<version>0.0.8-SNAPSHOT</version>
 	</parent>
 	<groupId>com.derya</groupId>
 	<artifactId>pet-clinic-web</artifactId>
-	<version>0.0.7</version>
+	<version>0.0.8-SNAPSHOT</version>
 	<name>pet-clinic-web</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -25,7 +25,7 @@
 		<dependency>
 			<groupId>com.derya</groupId>
 			<artifactId>pet-clinic-data</artifactId>
-			<version>0.0.7</version>
+			<version>0.0.8-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -83,7 +83,7 @@
 	</dependencies>
 
 	<scm>
-		<tag>pet-clinic-0.0.7</tag>
+		<tag>0.0.1</tag>
 	</scm>
 
 	<build>

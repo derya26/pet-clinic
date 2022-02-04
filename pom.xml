@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.derya</groupId>
 	<artifactId>pet-clinic</artifactId>
-	<version>0.0.9-SNAPSHOT</version>
+	<version>0.0.9</version>
 	<name>pet-clinic</name>
 	<description>Spring Boot Pet Clinic</description>
 	<packaging>pom</packaging>
@@ -56,7 +56,7 @@
 		<connection>https://github.com/derya26/pet-clinic.git</connection>
 		<url>https://github.com/derya26/pet-clinic.git</url>
 		<developerConnection>scm:git:https://github.com/derya26/pet-clinic.git</developerConnection>
-		<tag>pet-clinic-0.0.8</tag>
+		<tag>pet-clinic-0.0.9</tag>
 	</scm>
 	<modules>
 		<module>pet-clinic-data</module>
